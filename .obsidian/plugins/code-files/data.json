@@ -1,0 +1,16 @@
+{
+  "extensions": [
+    "py",
+    "ts",
+    "tsx",
+    "js",
+    "jsx"
+  ],
+  "folding": true,
+  "lineNumbers": true,
+  "minimap": true,
+  "semanticValidation": true,
+  "syntaxValidation": true,
+  "theme": "Nord",
+  "overwriteBg": true
+}

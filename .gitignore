@@ -1,0 +1,74 @@
+# =========================
+# 只保留人工智能主目录，其它同级目录全部忽略
+# =========================
+certificate/
+draft/
+Excalidraw/
+GitHub-Basics/
+Lightweight intrusion detection system based on deep learning/
+RAG-based intelligent question answering system for code repositories/
+
+# =========================
+# Python 缓存 / 编译文件
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# 虚拟环境
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# 编辑器 / IDE
+# =========================
+.idea/
+.vscode/
+
+# =========================
+# 日志 / 临时文件
+# =========================
+*.log
+*.tmp
+temp/
+tmp/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Obsidian
+# =========================
+.obsidian/workspace.json
+.obsidian/cache
+.trash/
+
+# =========================
+# 系统文件
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 常见不建议上传的大文件
+# 如果后续你在 Artificial-Intelligence 里放模型或大数据，可直接忽略
+# =========================
+*.pth
+*.pt
+*.pkl
+*.joblib
+
+# =========================
+# 可选：如果后续人工智能项目里有数据和输出目录，可取消注释
+# =========================
+# data/
+# datasets/
+# models/
+# outputs/
+# results/
+# runs/
